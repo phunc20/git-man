@@ -1,5 +1,12 @@
-
-
+## Basics
+- `git rm <file>` will remove that file from Git's index as well as from the filesystem. The latter means that, when you `ls <file>` after `git rm`ing it, you will not see the file any more.
+- To remove the file from Git's index and keep the file on the filesystem, one can use `git rm --cached <file>`.
+  In other words,
+  ```bash
+  git rm <file>
+  # is equiv. to
+  git rm --cached <file>; rm <file>
+  ```
 
 
 ## <s>Remove Mistakenly Commited files in Previous Commits</s> Not Working!
