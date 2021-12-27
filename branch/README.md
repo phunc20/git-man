@@ -65,3 +65,7 @@ which list more branches _that might be hidden from your view_.
   ```
 
 
+## Delete A Remote Branch
+```bash
+git push -d <remote_name> <branch_name>
+```
