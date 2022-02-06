@@ -14,10 +14,12 @@ git diff --staged [filename]
 ```
 
 
-
-
-
-
-
+## `--name-only`
+Sometimes what we want to know is which files are different between two commits. In this case,
+we can use commands similar to the following:
+```bash
+git diff --name-only SHA1 SHA2
+git diff --name-only HEAD~10 HEAD~5
+```
 
 
