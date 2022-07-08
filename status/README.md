@@ -1,0 +1,3 @@
+- I usually abbreviate `git status` to `git st` in `~/.gitconfig`
+- Tracked only: `git st -uno`
+- The current directory downward: `git st .`
