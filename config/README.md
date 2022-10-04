@@ -1,3 +1,9 @@
+## Files in This Directory
+Put
+- `./gitconfig` to `~/.gitconfig`
+- `./config` to `.git/config` of any of your github/gitlab projects
+
+
 ## Global and Local Configurations
 You can have a global Git configuration (usually at `~/.gitconfig`), but then
 for each project you do not necessarily want to use the same configuration.
