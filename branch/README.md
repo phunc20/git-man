@@ -5,16 +5,16 @@ git branch -a
 which list more branches _that might be hidden from your view_.
 - These branches might have a more proper name, like remote branches that are not default.
   ```bash
-  ~/git-repos/phunc20/18S191 ❯❯❯ git br
+  ~/git-repos/phunc20/18S191 $ git br
   * fall20
-  ~/git-repos/phunc20/18S191 ❯❯❯ git co phunc20
+  ~/git-repos/phunc20/18S191 $ git co phunc20
   Branch 'phunc20' set up to track remote branch 'phunc20' from 'origin'.
   Switched to a new branch 'phunc20'
-  ~/git-repos/phunc20/18S191 ❯❯❯ git br
+  ~/git-repos/phunc20/18S191 $ git br
     fall20
   * phunc20
   
-  ~/git-repos/phunc20/18S191 ❯❯❯ git br -a
+  ~/git-repos/phunc20/18S191 $ git br -a
     fall20
   * phunc20
     remotes/origin/HEAD -> origin/fall20
@@ -30,15 +30,15 @@ which list more branches _that might be hidden from your view_.
     remotes/origin/s/lecture3
     remotes/origin/seam_carving_example
     remotes/origin/tlienart-deploy
-  ~/git-repos/phunc20/18S191 ❯❯❯
+  ~/git-repos/phunc20/18S191 $
   ```
 - **`git branch -r`** or `git branch --remote` can be used to view remote branches exclusively.
   ```bash
-  ~/git-repos/phunc20/pytorch-Deep-Learning ❯❯❯ git br
+  ~/git-repos/phunc20/pytorch-Deep-Learning $ git br
   * master
-  ~/git-repos/phunc20/pytorch-Deep-Learning ❯❯❯ git br --help
+  ~/git-repos/phunc20/pytorch-Deep-Learning $ git br --help
   'br' is aliased to 'branch'
-  ~/git-repos/phunc20/pytorch-Deep-Learning ❯❯❯ git br -r
+  ~/git-repos/phunc20/pytorch-Deep-Learning $ git br -r
     origin/AIMS-FL18
     origin/AIMS-resolve
     origin/AIMS_readme
@@ -50,7 +50,7 @@ which list more branches _that might be hidden from your view_.
     origin/master
     origin/phunc20
     origin/revert-44-fix-scrollbar
-  ~/git-repos/phunc20/pytorch-Deep-Learning ❯❯❯ git br --remote
+  ~/git-repos/phunc20/pytorch-Deep-Learning $ git br --remote
     origin/AIMS-FL18
     origin/AIMS-resolve
     origin/AIMS_readme
@@ -63,6 +63,13 @@ which list more branches _that might be hidden from your view_.
     origin/phunc20
     origin/revert-44-fix-scrollbar
   ```
+
+
+## Create A New Branch
+Simply
+```shell
+$ git branch <new_branch_name>
+```
 
 
 ## Delete A Remote Branch
