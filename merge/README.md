@@ -11,3 +11,10 @@ on branch `B`, discarding the extra commits on `B`, you can
 git merge --squash B
 ```
 
+
+## Merge Some Remote Branch
+(Optionally, you can use `git br -r` to list remote branches.)
+
+```bash
+$ git merge remote_name/branch_name
+```
