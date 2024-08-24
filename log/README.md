@@ -1,0 +1,2 @@
+- `--abbrev-commit`
+- `--pretty=oneline`
