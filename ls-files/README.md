@@ -18,5 +18,9 @@ pretty much like the Linux command `ls`.
   # Better yet
   $ grep -n "[^a-Z0-9]f\"" $(git ls-files **/*.py)
   ```
-
+- Find git-tracked files with particular extensions, e.g.
+  finding images of some Hugo website
+  ```bash
+  $ git lf content/*.jpg
+  ```
 
