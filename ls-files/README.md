@@ -23,4 +23,8 @@ pretty much like the Linux command `ls`.
   ```bash
   $ git lf content/*.jpg
   ```
+  Regex are supported, e.g. finding JPEG w/o `logo` in the file name
+  ```bash
+  $ git lf *[^logo].jpg
+  ```
 
