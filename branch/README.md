@@ -76,3 +76,25 @@ $ git branch <new_branch_name>
 ```bash
 git push -d <remote_name> <branch_name>
 ```
+
+
+## Set up to track a remote branch
+
+```bash
+git branch -u <upstream>
+# or more verbose
+git branch --set-upstream-to=<upstream>
+```
+
+For example,
+
+```bash
+$ git br -u origin/main
+branch 'main' set up to track 'origin/main'.
+```
+
+To undo this, just
+
+```bash
+git branch --unset-upstream
+```
