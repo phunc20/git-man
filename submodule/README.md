@@ -5,6 +5,9 @@ http://jhjguxin.github.io/blog/2012/04/19/git-submodule-de-ren-shi-yu-zheng-que-
 https://gist.github.com/gitaarik/8735255
 https://github.blog/2016-02-01-working-with-submodules/
 
+`git submodule add <url>`
+
+
 
 The following two are equiv.
 - `git clone --recurse-sudmodules <repo_url>`
