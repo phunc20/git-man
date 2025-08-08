@@ -39,6 +39,14 @@ $ cat .git/config
 The three lines indicated above should be payed with attention.
 
 
+## UTF-8 Characters in, e.g., `git diff`
+One way to correctly display UTF-8 characters on terminal commands like `git diff`
+is through configuring like this
+
+```bash
+git config core.quotePath off
+```
+
 
 # Old Notes
 ```bash
