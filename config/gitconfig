@@ -8,3 +8,5 @@
 [user]
 	name = phunc20
 	email = wucf20@gmail.com
+[core]
+	quotePath = off
